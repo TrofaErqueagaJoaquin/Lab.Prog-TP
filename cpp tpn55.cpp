@@ -1,5 +1,4 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 
 string InvertirPalabra(string palabra);
@@ -19,7 +18,7 @@ int main()
 string InvertirPalabra(string palabra) 
 {
     string palabraInvertida = "";
-    for (int i = palabra.length() - 1; i >= 0; i--) {
+    for (int i = palabra.size() - 1; i >= 0; i--) {
     palabraInvertida += palabra[i];
     }
     return palabraInvertida;
